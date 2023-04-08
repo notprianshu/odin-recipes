@@ -1,7 +1,30 @@
+*{
+    text-align: center;
+}
+body {
+    background-color: #DDF7E3;
+}
 .heading {
-    color: pink
+    font-family: "Playfair Display";
+    color: #DF2E38;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
+}
+.recipie {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.recipie:link {
+    text-align: center;
+    color: #00235B;
 }
 
-div {
-    color: aqua
+.recipie:visited {
+    color: #00235B;
+}
+.recipie:hover{
+    color: #5D9C59;
 }
